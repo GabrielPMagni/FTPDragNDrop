@@ -2,7 +2,6 @@ from ftplib import FTP, FTP_TLS
 import ftplib
 import paramiko
 from os import stat
-from paramiko import transport
 from tqdm import tqdm
 
 class FTPDragNDrop:
